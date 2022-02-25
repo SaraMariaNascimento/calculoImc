@@ -1,0 +1,27 @@
+body, ul{
+  margin: 0px;
+  padding: 0px;
+}
+.img{
+   width:60px;
+   padding-top: 20px;
+}
+.header{
+  box-sizing: border-box;
+  height:70px;
+  padding:1rem;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  background:#4da14a;
+}
+.menu{
+  display:flex;
+  gap: .5rem;
+}
+@media(max-width:319px){
+  .img{
+    width:35px;
+    padding-top: 10px;
+ }
+}

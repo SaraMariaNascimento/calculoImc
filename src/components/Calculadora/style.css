@@ -1,0 +1,37 @@
+
+input{
+    background:rgba(228, 226, 226, 0.349);
+    border-radius:8px;
+    padding:9px;
+    margin: 5px;
+    font-size:14px;
+    border: none;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+table{ 
+    width:500px;
+    margin: 5px;
+}
+
+tr{
+    background:rgba(228, 226, 226, 0.349);
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+button{
+    width:150px;
+    padding:5px;
+    margin-top: 10px;
+    margin: 2px;
+    color: #fff;
+    background:rgb(107, 228, 107);
+    border:none;
+    border-radius:8px;
+    cursor: pointer;
+}
+button:hover{
+    background:rgb(85, 187, 85);
+}

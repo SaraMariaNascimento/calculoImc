@@ -1,0 +1,39 @@
+
+.conteudo{
+    background: url('../../assets/Img/bg-sobre.jpg');
+    opacity: 0.8;
+    width: 100%;
+    margin: 0px;
+    opacity: 6em;
+    color: #fff;
+    padding-top: 25px;
+    justify-content:space-around;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.frase{
+    width:50%;
+    background: rgb(76, 196, 72);
+    border-radius: 5px;
+}
+.conteudo > h1{ 
+    font-size:55px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-tab{
+    margin: 10px;
+    justify-content:center;
+}   
+@media( max-width:768px){
+    .img-tab{
+        width:350px;
+        
+    }
+}
+@media( max-width:370px){
+    .img-tab{
+        width:250px;
+    }
+}
